@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Recio Performance Lab</title>
+<meta name="description" content="Laboratorio de rendimiento trimestral para atletas híbridos y de resistencia en México.">
+<link rel="icon" type="image/png" href="recio-icon-512.png">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600&family=Big+Shoulders+Display:wght@800&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root { --cobalto:#2346C0; --hueso:#F2ECE2; --noche:#111315; --tinta:#141618; --gris:#5A5F63; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--hueso); color:var(--tinta); font-family:Archivo, 'Helvetica Neue', Arial, sans-serif; line-height:1.55; }
+  header { background:var(--noche); color:var(--hueso); padding:56px 24px 48px; }
+  .wrap { max-width:760px; margin:0 auto; }
+  .brand { display:flex; align-items:flex-end; gap:12px; }
+  .brand span { font-family:'Big Shoulders Display', sans-serif; font-weight:800; font-size:30px; line-height:.8; letter-spacing:.02em; }
+  .kicker { font-family:'IBM Plex Mono', monospace; font-size:12px; letter-spacing:.1em; text-transform:uppercase; color:#7C97F2; margin-top:28px; }
+  h1 { font-family:'Big Shoulders Display', sans-serif; font-weight:800; font-size:clamp(40px, 8vw, 64px); line-height:.95; text-transform:uppercase; margin:12px 0 16px; }
+  header p { color:#CFC8BC; font-size:18px; max-width:560px; margin:0; }
+  main { padding:40px 24px 56px; }
+  h2 { font-family:'Big Shoulders Display', sans-serif; font-weight:800; font-size:28px; text-transform:uppercase; margin:36px 0 8px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:16px; margin-top:16px; }
+  .card { background:#FAF7F1; border:1px solid #D8CFC1; border-radius:2px; padding:20px; }
+  .card b { display:block; margin-bottom:4px; }
+  .en { color:var(--gris); font-size:15px; }
+  a { color:var(--cobalto); }
+  footer { border-top:1px solid #D8CFC1; padding:20px 24px 32px; font-family:'IBM Plex Mono', monospace; font-size:12px; letter-spacing:.04em; color:var(--gris); }
+  footer .wrap { display:flex; flex-wrap:wrap; justify-content:space-between; gap:12px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="brand" role="img" aria-label="Recio">
+      <svg aria-hidden="true" viewBox="28 32 140 136" width="30" height="30"><g fill="none" stroke="#7C97F2" stroke-width="14" stroke-linejoin="miter"><path d="M54 130H36V160"/><path d="M98 92H70V138"/><path d="M160 40H118V112"/></g></svg>
+      <span>RECIO</span>
+    </div>
+    <div class="kicker">Performance Lab · Entrena recio</div>
+    <h1>Datos, no cuentos.</h1>
+    <p>Un laboratorio de rendimiento trimestral para atletas de Hyrox, CrossFit, running y triatlón. Unimos los datos de tu wearable con pruebas aplicadas por tu coach y te decimos, con evidencia, si tu entrenamiento está funcionando.</p>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+    <h2>Cómo funciona</h2>
+    <div class="grid">
+      <div class="card"><b>1 · Conectas tus dispositivos</b>Garmin, WHOOP, Oura, Polar o Apple Watch. Inicias sesión en tu propia cuenta; nunca vemos tu contraseña.</div>
+      <div class="card"><b>2 · Día de Prueba</b>Cada trimestre tu coach aplica pruebas estandarizadas, con el mismo protocolo cada vez.</div>
+      <div class="card"><b>3 · Tu reporte</b>Cada mes y cada trimestre recibes un reporte que separa la mejora real (Señal) del ruido, y qué cambiar en tu siguiente bloque.</div>
+    </div>
+
+    <h2>Tus datos</h2>
+    <p>Usamos tus datos de entrenamiento y salud solo para generar tus reportes, con tu consentimiento expreso y por escrito. No vendemos tus datos. Puedes desconectar tus dispositivos y pedir que borremos tu información en cualquier momento. Lee nuestro <a href="privacidad.html">Aviso de privacidad</a>.</p>
+    <p class="en"><b>English:</b> Recio Performance Lab is a quarterly performance lab for hybrid and endurance athletes in Mexico. We combine wearable data with coach-run benchmark tests to show athletes whether their training is working. We use health and training data only to produce each athlete's reports, with their express written consent, and we never sell it. See our <a href="privacidad.html#english">Privacy notice</a>.</p>
+
+    <h2>Contacto</h2>
+    <p><a href="mailto:recioperformancelab@gmail.com">recioperformancelab@gmail.com</a> · Ciudad de México</p>
+  </div>
+</main>
+<footer>
+  <div class="wrap"><span>© 2026 RECIO PERFORMANCE LAB</span><span><a href="privacidad.html">AVISO DE PRIVACIDAD</a></span></div>
+</footer>
+</body>
+</html>
